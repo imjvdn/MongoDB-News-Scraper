@@ -1,41 +1,48 @@
-body{
-  background: url('../img/motivo3-01.jpg') repeat;
-  background-size: 600px;
-  font-family: 'Oswald', sans-serif;
+html {
+  font-size: 12px;
+}
+
+li { 
+    margin-bottom: 1%;
+}
+
+p {
   font-size: 16px;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  margin-left: 1%;
+  margin-top: 1%;
 }
 
-main{
-  flex: 1 0 auto;
+#bodyinput {
+    width: 50%;
 }
 
-.articleBody{
-  height: 200px;
-  font-size: 20px;
-  overflow-y: scroll;
-  line-height: 150%;
+.jumbotron {
+  overflow: hidden;
+    background-size: 50%;
+    background-position: center;
+    background-image: url('../images/New-York-Times-Logo.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
 }
 
-#nameComment{
-  /*border-bottom: 2px solid #ec407a;*/
-  font-weight: bold;
-  background: #ec407a;
-  color: white;
+.panel-heading.row {
+  width: 100%;
+    margin-left: 0%;
 }
 
-/* label focus color */
-.input-field input[type=text]:focus + label {
- color: #e91e63;
+.panel-primary {
+    height: 135px;
 }
-/* label underline focus color */
-.input-field input[type=text]:focus {
- border-bottom: 1px solid #e91e63;
- box-shadow: 0 1px 0 0 #000;
+
+#savenote {
+    display: block;
 }
-/* icon prefix focus color */
-.input-field .prefix.active {
- color: #ec407a;
-}
+
+/* 
+  These rules take effect when the browser's width
+  is 640px or less.
+*/
+@media screen and (max-width: 640px) {
+  
+}s
