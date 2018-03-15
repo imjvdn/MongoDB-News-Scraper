@@ -12,18 +12,21 @@ In this assignment, you'll create a web app that lets users view and leave comme
 
 
 <b>NPM Packages:</b>
-- npm install express - https://www.npmjs.com/package/express
-- express handlebars - https://www.npmjs.com/package/express-handlebars
-- method-override - https://www.npmjs.com/package/method-override
-- npm install body-parser - https://www.npmjs.com/package/body-parser
-- mysql - https://www.npmjs.com/package/mysql
+- express - https://www.npmjs.com/package/express
+- express-handlebars - https://www.npmjs.com/package/express-handlebars
+- mongoose - https://www.npmjs.com/package/mongoose
+- body-parser - https://www.npmjs.com/package/body-parser
+- cheerio - https://www.npmjs.com/package/cheerio
+- request - https://www.npmjs.com/package/request
 
 
 <b>Technologies Used:</b>
 - Node.JS
 - Javascript
 - Express
-- MySQL
+- Mongoose
+- Cheerio
+- mLab MongoDB
 - Handlebars
 - HTML
 - Jquery
@@ -32,12 +35,11 @@ In this assignment, you'll create a web app that lets users view and leave comme
 
 <b>Prerequisites:</b>
 - Node.js - Download the latest version of Node https://nodejs.org/en/
-- Materialize - Add CDN link to HTML http://materializecss.com/
+- Bootstrap - https://getbootstrap.com/
 
 <b>Built With:</b>
 - Sublime Text - Text Editor
-- Materialize - CSS Framework based on Material Design
-- MySQL Workbench
+- Bootstrap
 
 <b>Acknowledgments:</b>
 - UC Berkeley Coding Boot Camp Staff
