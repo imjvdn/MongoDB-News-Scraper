@@ -39,7 +39,7 @@ app.use("/", routes);
 
 // mongoose.connect("mongodb://heroku_gnzk5747:4d2121nhgnfbdl1pfirsdepk9n@ds125262.mlab.com:25262/heroku_gnzk5747");
 
-mongoose.connect("mongodb://admin:admin@ds215089.mlab.com:15089/heroku_6phm3dhh");
+   mongoose.connect("mongodb://admin:admin@ds215089.mlab.com:15089/heroku_6phm3dhh");
 
 
 var db = mongoose.connection;
@@ -54,7 +54,7 @@ db.once("open", function() {
   console.log("Mongoose connection successful.");
 });
 
-// Listen on port 3000
+// Listen on port 8080
 app.listen(PORT, function() {
   console.log("App running on PORT " + PORT);
 });
