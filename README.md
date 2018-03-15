@@ -44,4 +44,7 @@ In this assignment, you'll create a web app that lets users view and leave comme
 <b>Acknowledgments:</b>
 - UC Berkeley Coding Boot Camp Staff
 
-<img src="https://github.com/llandicho/burger/blob/master/public/assets/img/burger-screenshot.jpg">
+<img src="https://github.com/llandicho/MongoDB-News-Scraper/blob/master/public/assets/images/scr-home.png"><br>
+<img src="https://github.com/llandicho/MongoDB-News-Scraper/blob/master/public/assets/images/scr-scrape.png"><br>
+<img src="https://github.com/llandicho/MongoDB-News-Scraper/blob/master/public/assets/images/scr-saved-articles.png"><br>
+<img src="https://github.com/llandicho/MongoDB-News-Scraper/blob/master/public/assets/images/scr-notes.png">
